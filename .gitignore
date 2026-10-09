@@ -1,0 +1,10 @@
+# Bỏ qua các file cấu hình chứa mật khẩu cá nhân nếu có
+# (Lưu ý: file db.php nên giữ bản mẫu hoặc không đẩy mật khẩu thật)
+
+# Thư mục tạm hoặc uploads của người dùng (nếu có)
+uploads/
+*.log
+
+# File hệ thống
+.DS_Store
+Thumbs.db
